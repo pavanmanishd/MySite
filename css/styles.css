@@ -27,14 +27,6 @@ h1{
     margin: 0%;
 }
 
-.middle-container{
-    
-}
-
-.bottom-container{
-
-}
-
 .mountain1{
     width: 100%;
     position: absolute;
@@ -45,13 +37,29 @@ h1{
 .cloud1{
     width: 50%;
     position: absolute;
-    bottom: 89%;
+    bottom: 85%;
+    opacity:90%;
+
+    pointer-events: none;
+
 }
 .cloud2{
     width: 40%;
     position: absolute;
     right: 49%;
-    bottom: 64%;
+    bottom: 68%;
+    opacity: 65%;
+
+    pointer-events: none;
+
+}
+
+.cloud3{
+    position: absolute;
+    width: 35%;
+    opacity: 50%;
+
+    pointer-events: none;
 }
 
 .name:hover{
@@ -61,7 +69,8 @@ h1{
 .github{
     width: 60px;
     position: absolute;
-    right: 50px;
+    right: 0px;
+    
 }
 .twitter{
     width: 60px;
@@ -71,7 +80,7 @@ h1{
 .insta{
     width: 60px;
     position: absolute;
-    left: 43px;
+    left: 0px;
 }
 
 
