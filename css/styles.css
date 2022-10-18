@@ -5,12 +5,13 @@ body{
 @font-face {
     font-family: Valencia;
     src: url(./Valencia.ttf);
-}
+} 
 h1{
     display: inline-block;
     margin-top: 0px;
     margin-bottom: 20px;
-    font-family: Valencia;
+    padding-top: 5%;
+    font-family: Valencia,Georgia;
     font-size: 250px;
 }
 
@@ -18,7 +19,7 @@ h1{
     margin-top: 0px;
     margin-bottom: 0px;
     font-family: Georgia;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .top-container{
@@ -62,7 +63,7 @@ h1{
     width: 35%;
     opacity: 75%;
     top: 5%;
-    left: 80%;
+    right: 0%;
     pointer-events: none;
 }
 
