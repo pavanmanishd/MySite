@@ -2,13 +2,16 @@
 body{
     margin: 0;
 }
-
+@font-face {
+    font-family: Valencia;
+    src: url(./Valencia.ttf);
+}
 h1{
     display: inline-block;
     margin-top: 0px;
     margin-bottom: 20px;
-    font-family:Georgia;
-    font-size: 100px;
+    font-family: Valencia;
+    font-size: 250px;
 }
 
 .head{
