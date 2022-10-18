@@ -11,6 +11,14 @@ h1{
     font-size: 100px;
 }
 
+.subheading{
+    display: inline-block;
+    font-family:Georgia;
+    font-size: 30px;
+    position: relative;
+    bottom: 330px;
+    left: 513px;
+}
 p{
     margin-top: 0px;
     margin-bottom: 0px;
@@ -46,10 +54,28 @@ p{
 .cloud2{
     width: 40%;
     position: relative;
-    bottom: 400px;
+    bottom: 390px;
 }
 
 .name:hover{
     font-family: Georgia;
     color:darkslategray;
+}
+.github{
+    width: 3.5%;
+    position: relative;
+    bottom: 200px;
+    right: 120px;
+}
+.twitter{
+    width: 3.5%;
+    position: relative;
+    bottom: 200px;
+    right: 100px;
+}
+.insta{
+    width: 3.5%;
+    position: relative;
+    bottom: 257.5px;
+    left: 523px;
 }
