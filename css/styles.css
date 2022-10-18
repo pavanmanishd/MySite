@@ -11,24 +11,20 @@ h1{
     font-size: 100px;
 }
 
-.subheading{
-    display: inline-block;
-    font-family:Georgia;
-    font-size: 30px;
-    position: relative;
-    bottom: 330px;
-    left: 513px;
-}
-p{
+.head{
     margin-top: 0px;
     margin-bottom: 0px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia;
     font-size: 30px;
 }
 
 .top-container{
     background-color: #E4F9F5;
     display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 900px;
+    margin: 0%;
 }
 
 .middle-container{
@@ -41,20 +37,21 @@ p{
 
 .mountain1{
     width: 100%;
-    position: relative;
-    bottom: 300px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
 }
 
 .cloud1{
     width: 50%;
-    position: relative;
-    right: 80px;
-    bottom: 110px;
+    position: absolute;
+    bottom: 89%;
 }
 .cloud2{
     width: 40%;
-    position: relative;
-    bottom: 390px;
+    position: absolute;
+    right: 49%;
+    bottom: 64%;
 }
 
 .name:hover{
@@ -62,20 +59,36 @@ p{
     color:darkslategray;
 }
 .github{
-    width: 3.5%;
-    position: relative;
-    bottom: 200px;
-    right: 120px;
+    width: 20%;
+    position: absolute;
+    left: 55%;
 }
 .twitter{
-    width: 3.5%;
-    position: relative;
-    bottom: 200px;
-    right: 100px;
+    width: 20%;
+    position: absolute;
+    left: 30%;
 }
 .insta{
-    width: 3.5%;
+    width: 20%;
+    position: absolute;
+    left: 3%;
+}
+
+
+#subheading{
+    display: inline-block;
+    position: absolute;
+    bottom: 100%;
+    left: 10% ;
+    font-family: Georgia;
+    font-size: 30px;
+    width: 80%;
+}
+
+.social{
+    display: inline-block;
     position: relative;
-    bottom: 257.5px;
-    left: 523px;
+    width: 20%;
+    height: 20%;
+    left: 40%;
 }
