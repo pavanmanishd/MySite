@@ -4,6 +4,7 @@ body{
 }
 
 h1{
+    display: inline-block;
     margin-top: 0px;
     margin-bottom: 20px;
     font-family:Georgia;
@@ -11,6 +12,8 @@ h1{
 }
 
 p{
+    margin-top: 0px;
+    margin-bottom: 0px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
 }
@@ -21,17 +24,32 @@ p{
 }
 
 .middle-container{
-    height: 200px;
-    width: 200px;
-    background-color: red;
+    
 }
 
 .bottom-container{
-    height: 200px;
-    width: 200px;
-    background-color: blue;
+
 }
 
-img{
+.mountain1{
     width: 100%;
+    position: relative;
+    bottom: 300px;
+}
+
+.cloud1{
+    width: 50%;
+    position: relative;
+    right: 80px;
+    bottom: 110px;
+}
+.cloud2{
+    width: 40%;
+    position: relative;
+    bottom: 400px;
+}
+
+.name:hover{
+    font-family: Georgia;
+    color:darkslategray;
 }
