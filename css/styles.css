@@ -4,22 +4,15 @@ body{
 }
 @font-face {
     font-family: Valencia;
-    src: url(./Valencia.ttf);
-} 
-h1{
-    display: inline-block;
-    margin-top: 0px;
-    margin-bottom: 20px;
-    padding-top: 5%;
-    font-family: Georgia;
-    font-size : 5.6em;
+    src: url(/fonts/Valencia.ttf);
 }
-
-.head{
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-family: Georgia;
-    font-size: 250%;
+@font-face {
+    font-family: Allura;
+    src: url(/fonts/Allura-Regular.otf);
+}
+@font-face {
+    font-family: Citadel;
+    src: url(/fonts/citadel_script.ttf);
 }
 
 .top-container{
@@ -30,13 +23,24 @@ h1{
     height: 900px;
     margin: 0%;
 }
- .middle-container{
 
- }
+h1{
+    display: inline-block;
+    margin: 0px auto 20px auto;
+    color: #40514E;
+    padding-top: 5%;
+    font-family: Georgia;
+    font-size : 5.6rem;
+}
 
- .bottom-container{
-
- }
+.head{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: block;
+    color: #40514E;
+    font-family: Georgia;
+    font-size: 250%;
+}
 
 .mountain1{
     width: 100%;
@@ -83,18 +87,21 @@ h1{
     position: absolute;
     right: 100px;
     top: 50px;
+    opacity: 70%;
 }
 .twitter{
     width: 40px;
     position: absolute;
     right: 19px;
     top: 50px;
+    opacity: 70%;
 }
 .insta{
     width: 40px;
     position: absolute;
     left: 90px;
     top: 50px;
+    opacity: 70%;
 }
 
 .linkedin{
@@ -102,10 +109,50 @@ h1{
     position: absolute;
     left: 15px;
     top: 50px;
+    opacity: 70%;
 }
 
 .social{
     display: block;
     position: relative;
     width: 0%;
+}
+.middle-container{
+    background-color: #E4F9F5;
+}
+
+.h2{
+    display: block;
+    margin: 0px auto 20px auto;
+    color: #40514E;
+    padding-top: 2%;
+    font-family: Georgia;
+    font-size : 3rem;
+}
+
+.dp{
+    width: 15%;
+    border-radius: 100%;
+    margin-top: 3%;
+}
+.skills{
+    position: relative;
+}
+.status{
+    color: #40514E;
+    font-family: Georgia;
+    font-size: 2rem;
+}
+.skill-img{
+    width: 60px;
+    opacity: 70%;
+}
+.skill-name{
+    display: inline-block;   
+}
+.html{
+    position: relative;
+}
+.bottom-container{
+    
 }
