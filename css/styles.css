@@ -169,14 +169,40 @@ h1{
     opacity: 70%;
 }
 .skill-name{
-    display: inline-block;   
+    display: inline-block;  
+    padding: 20px 40px 40px 10px; 
 }
 .html{
     position: relative;
 }
 .bottom-container{
-    
+    background-color: #E4F9F5;
+    position: relative;
 }
 .bar{
     background-color: #E4F9F5;
+}
+.link{
+    color: #40514E;
+    font-family: Georgia;
+    font-size: 2rem;
+}
+
+.socialheading{
+    color: #002b33;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.heading{
+    color: #002b33;
+    font-family: Georgia;
+    font-size: 50px;
+    padding: 50px;
+}
+.row{
+    border-style: none;
+    border-top-style: dotted ;
+    height: 0px;
+    width: 100px;
+    border-color: grey;
+    border-width: 5px;
 }
