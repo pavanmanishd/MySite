@@ -64,16 +64,16 @@ h1{
 }
 
 .cloud1{
-    width: 50%;
+    width: 756px;
     position: absolute;
     bottom: 83%;
     opacity:70%;
-    right: 30%;
+    left: 50%;
     pointer-events: none;
 
 }
 .cloud2{
-    width: 40%;
+    width: 604px;
     position: absolute;
     right: 65%;
     bottom: 50%;
@@ -85,10 +85,10 @@ h1{
 
 .cloud3{
     position: absolute;
-    width: 35%;
+    width: 530px;
     opacity: 75%;
-    top: 5%;
-    right: 0%;
+    top: 20%;
+    left: 85%;
     pointer-events: none;
 }
 
@@ -185,12 +185,13 @@ h1{
 .link{
     color: #40514E;
     font-family: Georgia;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .socialheading{
     color: #002b33;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
 }
 .heading{
     color: #002b33;
